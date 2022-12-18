@@ -48,7 +48,7 @@ header{
 }
 
 .lista-menu-link{
-    background: var(--azul-degrade);
+    background: var(--vermelho-degrade);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -59,3 +59,5 @@ header{
 .container-botao{
     display: none;
 }
+
+

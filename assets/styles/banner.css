@@ -1,5 +1,5 @@
 .banner{
-    background: var(--azul-degrade);
+    background: var(--vermelho-degrade);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,6 +15,7 @@
 }
 
 .banner > h3{
+    text-align: center;
     color: var(--branco);
     font-weight: 500;
 }

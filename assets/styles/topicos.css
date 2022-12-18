@@ -1,0 +1,31 @@
+.topicos{
+    background: var(--vermelho-degrade);
+    text-align: center;
+    padding: 1em;
+}
+
+.topicos > h2{
+    font-weight: 300;
+    color: var(--branco);
+    margin-bottom: 2em;
+}
+
+.topicos-lista{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+.topicos-item{
+    background-color: var(--vermelho-claro);
+    padding: 1em;
+}
+
+.topicos-link{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--branco);
+}

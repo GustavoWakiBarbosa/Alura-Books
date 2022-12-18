@@ -1,0 +1,33 @@
+.novidades{
+    text-align: center;
+    padding: 2em;
+    background-color: var(--branco);
+}
+
+.novidades > h2{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--vermelho-escuro);
+}
+
+.novidades > p{
+    font-weight: 300;
+    color: var(--vermelho-claro);
+    margin: 1em 0;
+}
+
+#email{
+    border: 1px solid var(--vermelho-escuro);
+    border-radius: 24px;
+    padding: 1em;
+    width: 90%;
+}
+
+#email::placeholder{
+    font-family: var(--fonte);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--vermelho-escuro);
+    background: url("../images/Email.svg") no-repeat;
+    padding-left: 2em;
+}

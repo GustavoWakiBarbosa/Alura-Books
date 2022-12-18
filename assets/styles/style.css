@@ -1,12 +1,19 @@
 @import url("header.css");
 @import url("banner.css");
+@import url("carrosel.css");
+@import url("card.css");
+@import url("topicos.css");
+@import url("novidades.css");
+@import url("footer.css");
 
 :root{
     --cor-de-fundo: #EBECEE;
     --branco: #FFFFFF;
-    --laranja: #EB9B00;
-    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
-    --fonte: 'Poppins'
+    --vermelho-claro: #F74D4A;
+    --vermelho-degrade: linear-gradient(97.54deg, #c92115 35.49%, #f59393 165.37%);
+    --vermelho-escuro: #f30e0a;
+    --preto: #000000D9;
+    --fonte: 'Poppins';
 }
 
 body{

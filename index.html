@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alura Books</title>
     <link rel="stylesheet" href="assets/styles/resets.css">
-    <link rel="stylesheet" href="assets/styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="assets/styles/style.css">
+    
 </head>
 <body>
     <header>
@@ -45,11 +47,116 @@
     <main>
         <section class="banner">
             <h2>Já sabe por onde começar?</h2>
-            <h3>Encontre em nossa estante o que <br> precisa para seu desenvolvimento!</h3>
+            <h3>Encontre em nossa loja o que você precisa para sua decoração geek!</h3>
             <div class="pesquisa">
-                <input type="search" id="pesquisa" placeholder="Qual será sua próxima leitura?">
+                <input type="search" id="pesquisa" placeholder="Qual será sua procura?">
             </div>
         </section>
+
+        <section class="carrosel">
+            <h2>ÚLTIMOS LANÇAMENTOS</h2>
+            <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                        <div class="swiper-slide"><img src="assets/images/carrosel images/Luffy gear 5.svg" alt="Estatueta Luffy Gear Five - One Piece"></div>
+                        <div class="swiper-slide"><img src="assets/images/carrosel images/zoro.svg" alt="Estatueta Zoro - One Piece"></div>
+                        <div class="swiper-slide"><img src="assets/images/carrosel images/sanji.svg" alt="Estatueta Sanji - One Piece"></div>
+                        <div class="swiper-slide"><img src="assets/images/carrosel images/barba branca.svg" alt="Estatueta Barba Branca - One Piece"></div>
+                        <div class="swiper-slide"><img src="assets/images/carrosel images/kaido.svg" alt="Estatueta Kaido - One Piece"></div>
+                        <div class="swiper-slide"><img src="assets/images/carrosel images/jimbe.svg" alt="Estatueta Jimbe - One Piece"></div>
+                    </div>
+                
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                
+                </div>
+        </section>
+
+        <section class="card">
+            <div class="textos-card">
+                <h3>Talvez você também se interesse por...</h3>
+                <h2>Angular 11 e <br> Firebase</h2>
+                <p class="descricao-card">Construindo uma aplicação integrada com a plataforma do Google.</p>
+            </div>
+            <div class="icones-card">
+                <img src="assets/images/Favoritos.svg" alt="Meus Favoritos">
+                <img src="assets/images/Compras.svg" alt="Carrinho de Compras">
+            </div>
+            <img src="assets/images/Quadro one piece.svg" class="quadro-card" alt="Quadro one piece going merry">
+            <a href="" class="botao-saiba-mais">Saiba Mais</a>  
+        </section>
+
+        <section class="carrosel">
+            <h2>Mais vendidos</h2>
+            <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                        <div class="swiper-slide"><img src="assets/images/carrosel images/8.svg" alt="Luminaria Kakashi - Naruto"></div>
+                        <div class="swiper-slide"><img src="assets/images/carrosel images/9.svg" alt="Caneca bandeira chapeus de palha - One Piece"></div>
+                        <div class="swiper-slide"><img src="assets/images/carrosel images/10.svg" alt="Moletom Kaneki - Tokuo Ghoul"></div>
+                        <div class="swiper-slide"><img src="assets/images/carrosel images/11.svg" alt="Pelucia Pochita - Chainsaw Man"></div>
+                        <div class="swiper-slide"><img src="assets/images/carrosel images/12.svg" alt="Capinha de Celular Zenitsu - Kimetsu no Yaiba"></div>
+                        <div class="swiper-slide"><img src="assets/images/carrosel images/13.svg" alt="Moletom Midoriya, Todoroki e Bakugou - Boku no hero"></div>
+                    </div>
+                
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                
+                </div>
+        </section>
+
+        <section class="card">
+            <div class="textos-card">
+                <img src="assets/images/Estrelinhas.svg" class="estrelinjas" alt="Estrelinhas">
+                <h3>Destaque do Mês</h3>
+                <h2>Moletom Akatsuki</h2>
+                <p class="descricao-card">Na compra de um moletom você ganha um chaveiro da Akatsuki, mais adesivos da edição.</p>
+            </div>
+            <div class="icones-card">
+                <img src="assets/images/Favoritos.svg" alt="Meus Favoritos">
+                <img src="assets/images/Compras.svg" alt="Carrinho de Compras">
+            </div>
+            <img src="assets/images/Moletom Akatsuki.svg" class="quadro-card" alt="Quadro one piece going merry">
+            <a href="" class="botao-saiba-mais">Saiba Mais</a>  
+        </section>
+
+        <section class="topicos">
+            <h2>Tópicos Visitados Recentemente</h2>
+             <ul class="topicos-lista">
+                <li class="topicos-item"><a href="" class="topicos-link">Action Figures</a></li>
+                <li class="topicos-item"><a href="" class="topicos-link">Estatuetas</a></li>
+                <li class="topicos-item"><a href="" class="topicos-link">Camisetas</a></li>
+                <li class="topicos-item"><a href="" class="topicos-link">Canecas</a></li>
+                <li class="topicos-item"><a href="" class="topicos-link">Moletons</a></li>
+                <li class="topicos-item"><a href="" class="topicos-link">Luminárias</a></li>
+                <li class="topicos-item"><a href="" class="topicos-link">Chaveiros</a></li>
+                <li class="topicos-item"><a href="" class="topicos-link">Quadros</a></li>
+             </ul>
+        </section>
+
+        <section class="novidades">
+            <h2>Fique por dentro das novidades!</h2>
+            <p>Atualizações de e-books, novos livros, promoções e outros.</p>
+            <div class="email">
+                <input type="email" id="email" placeholder="Cadastre seu e-mail">
+            </div>
+        </section>
+
+        <footer>
+            <h2>GG GEEK</h2>
+        </footer>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

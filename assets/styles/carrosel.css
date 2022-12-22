@@ -24,3 +24,23 @@
 .swiper-pagination-bullet{
     background-color: var(--vermelho-claro);
 }
+
+@media screen and (min-width: 1024px) {
+    .carrosel > h2{
+        font-size: 26px;
+    }
+
+    .swiper-pagination{
+        margin: 1em 0;
+    }
+
+    .swiper{
+        width: 60%;
+    }
+
+    .swiper-button-prev, .swiper-button-next{
+        display: block;
+        margin: auto 0;
+        color: var(--vermelho-claro);
+    }
+}

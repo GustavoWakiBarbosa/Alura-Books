@@ -61,3 +61,11 @@
     color: var(--branco);
     text-decoration: none;
 }
+
+@media screen and (min-width: 1024px) {
+    .card{
+        margin: 2em auto;
+        width: 40%;
+        padding: 1em;
+    }
+}

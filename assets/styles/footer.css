@@ -3,3 +3,40 @@ footer{
     border-top: 1px solid var(--vermelho-escuro);
     background-color: var(--branco);
 }
+
+.footer-icons{
+    display: none;
+}
+
+
+
+@media screen and (min-width: 1024px) {
+    .footer-icons{
+        display: block;
+    }
+    
+    footer{
+        display: flex;
+        justify-content: space-around;
+        padding: 3.5em 1.5em;
+    }
+
+    footer > h2{
+        font-size: 24px;
+    }
+
+    .footer-icons> h2{
+        font-size: 22px;
+        color: var(--cinza);
+        margin-bottom: 2em;
+    }
+
+    .footer-icons > ul > li > a{
+        color: var(--preto);
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        margin-bottom: 1em;
+    }
+}

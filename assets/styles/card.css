@@ -62,6 +62,13 @@
     text-decoration: none;
 }
 
+.botao-saiba-mais:hover{
+    transform: scale(1.1);
+    background-position: -60px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transition: 0.2s ease-in;
+}
+
 @media screen and (min-width: 1024px) {
     .card{
         margin: 2em auto;

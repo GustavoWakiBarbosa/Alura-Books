@@ -71,9 +71,17 @@
             </ul>
         </nav>
         <div class="container">
-            <img src="assets/images/Favoritos.svg" alt="Meus Favoritos" class="imagem-transparente">
-            <img src="assets/images/Compras.svg" alt="Carrinho de Compras">
-            <img src="assets/images/Usuário.svg" alt="Meu Usuário">
+            <a href="#">
+                <img src="assets/images/Favoritos.svg" alt="Meus Favoritos" class="imagem-transparente">
+            </a>
+            <a href="#">
+                <img src="assets/images/Compras.svg" alt="Carrinho de Compras">
+                <p class="container-texto">Minha Sacola</p>
+            </a>
+            <a href="#">
+                <img src="assets/images/Usuário.svg" alt="Meu Usuário">
+                <p class="container-texto">Meu Perfil </p>
+            </a>
         </div> 
     </header>
     <main>
@@ -85,47 +93,49 @@
             </div>
         </section>
 
-        <section class="carrosel">
-            <h2>ÚLTIMOS LANÇAMENTOS</h2>
-            <!-- Slider main container -->
-                <div class="swiper">
-                    <!-- If we need pagination -->
-                    <div class="swiper-pagination"></div>
-                    <!-- Additional required wrapper -->
-                    <div class="swiper-wrapper">
-                    <!-- Slides -->
-                        <div class="swiper-slide"><img src="assets/images/carrosel images/Luffy gear 5.svg" alt="Estatueta Luffy Gear Five - One Piece"></div>
-                        <div class="swiper-slide"><img src="assets/images/carrosel images/zoro.svg" alt="Estatueta Zoro - One Piece"></div>
-                        <div class="swiper-slide"><img src="assets/images/carrosel images/sanji.svg" alt="Estatueta Sanji - One Piece"></div>
-                        <div class="swiper-slide"><img src="assets/images/carrosel images/barba branca.svg" alt="Estatueta Barba Branca - One Piece"></div>
-                        <div class="swiper-slide"><img src="assets/images/carrosel images/kaido.svg" alt="Estatueta Kaido - One Piece"></div>
-                        <div class="swiper-slide"><img src="assets/images/carrosel images/jimbe.svg" alt="Estatueta Jimbe - One Piece"></div>
+            <section class="carrosel">
+                <h2>ÚLTIMOS LANÇAMENTOS</h2>
+                <div class="agrupamento">
+                <!-- Slider main container -->
+                    <div class="swiper">
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                        <!-- Slides -->
+                            <div class="swiper-slide"><img src="assets/images/carrosel images/Luffy gear 5.svg" alt="Estatueta Luffy Gear Five - One Piece"></div>
+                            <div class="swiper-slide"><img src="assets/images/carrosel images/zoro.svg" alt="Estatueta Zoro - One Piece"></div>
+                            <div class="swiper-slide"><img src="assets/images/carrosel images/sanji.svg" alt="Estatueta Sanji - One Piece"></div>
+                            <div class="swiper-slide"><img src="assets/images/carrosel images/barba branca.svg" alt="Estatueta Barba Branca - One Piece"></div>
+                            <div class="swiper-slide"><img src="assets/images/carrosel images/kaido.svg" alt="Estatueta Kaido - One Piece"></div>
+                            <div class="swiper-slide"><img src="assets/images/carrosel images/jimbe.svg" alt="Estatueta Jimbe - One Piece"></div>
+                        </div>
+                    
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    
                     </div>
-                
-                    <!-- If we need navigation buttons -->
-                    <div class="swiper-button-prev"></div>
-                    <div class="swiper-button-next"></div>
-                
+            
+            <div class="card">
+                <div class="textos-card">
+                    <h3>Talvez você também se interesse por...</h3>
+                    <h2>Quadro One piece</h2>
+                    <p class="descricao-card">Lindo quadro decorativo going merry no por do sol One Piece.</p>
                 </div>
-        </section>
-
-        <section class="card">
-            <div class="textos-card">
-                <h3>Talvez você também se interesse por...</h3>
-                <h2>Quadro One piece</h2>
-                <p class="descricao-card">Lindo quadro decorativo going merry no por do sol One Piece.</p>
+                <div class="icones-card">
+                    <img src="assets/images/Favoritos.svg" alt="Meus Favoritos">
+                    <img src="assets/images/Compras.svg" alt="Carrinho de Compras">
+                </div>
+                <img src="assets/images/Quadro one piece.svg" class="quadro-card" alt="Quadro one piece going merry">
+                <a href="" class="botao-saiba-mais">Saiba Mais</a>  
             </div>
-            <div class="icones-card">
-                <img src="assets/images/Favoritos.svg" alt="Meus Favoritos">
-                <img src="assets/images/Compras.svg" alt="Carrinho de Compras">
-            </div>
-            <img src="assets/images/Quadro one piece.svg" class="quadro-card" alt="Quadro one piece going merry">
-            <a href="" class="botao-saiba-mais">Saiba Mais</a>  
-        </section>
-
+        </div>
+    </section>
         <section class="carrosel">
-            <h2>Mais vendidos</h2>
+            <h2>MAIS VENDIDOS</h2>
             <!-- Slider main container -->
+            <div class="agrupamento">
                 <div class="swiper">
                     <!-- If we need pagination -->
                     <div class="swiper-pagination"></div>
@@ -143,24 +153,24 @@
                     <!-- If we need navigation buttons -->
                     <div class="swiper-button-prev"></div>
                     <div class="swiper-button-next"></div>
-                
                 </div>
-        </section>
-
-        <section class="card">
-            <div class="textos-card">
-                <img src="assets/images/Estrelinhas.svg" class="estrelinjas" alt="Estrelinhas">
-                <h3>Destaque do Mês</h3>
-                <h2>Moletom Akatsuki</h2>
-                <p class="descricao-card">Na compra de um moletom você ganha um chaveiro da Akatsuki, mais adesivos da edição.</p>
+            
+                <div class="card">
+                    <div class="textos-card">
+                        <img src="assets/images/Estrelinhas.svg" class="estrelinjas" alt="Estrelinhas">
+                        <h3>Destaque do Mês</h3>
+                        <h2>Moletom Akatsuki</h2>
+                        <p class="descricao-card">Na compra de um moletom você ganha um chaveiro da Akatsuki, mais adesivos da edição.</p>
+                    </div>
+                    <div class="icones-card">
+                        <img src="assets/images/Favoritos.svg" alt="Meus Favoritos">
+                        <img src="assets/images/Compras.svg" alt="Carrinho de Compras">
+                    </div>
+                    <img src="assets/images/Moletom Akatsuki.svg" class="quadro-card" alt="Quadro one piece going merry">
+                    <a href="" class="botao-saiba-mais">Saiba Mais</a>  
+                </div>
             </div>
-            <div class="icones-card">
-                <img src="assets/images/Favoritos.svg" alt="Meus Favoritos">
-                <img src="assets/images/Compras.svg" alt="Carrinho de Compras">
-            </div>
-            <img src="assets/images/Moletom Akatsuki.svg" class="quadro-card" alt="Quadro one piece going merry">
-            <a href="" class="botao-saiba-mais">Saiba Mais</a>  
-        </section>
+    </section>
 
         <section class="topicos">
             <h2>Tópicos Visitados Recentemente</h2>
